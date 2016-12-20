@@ -1,0 +1,52 @@
+/* The Attributes for the pages overall look */
+body {
+padding-left: 11em;
+
+}
+/*Heading tag with different sizes using font Helvetica Neue and Trebuchet MS with a specific colour*/
+h1 {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: black;
+}
+h3 {
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+color: black;
+}
+h4 { font-family: "Trebuchet MS", Helvetica, sans-serif;
+color: black;
+}
+address {
+margin-top: 1em;
+padding-top: 1em;
+? border-top: thin dotted }
+/*Paragaraph tag specifying font and colour*/
+p {
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+color: black;
+}
+/*Table style defined with table name*/
+table#Table1 {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+/*Defining the table design itself and how it will appear with the text aligned to the elft*/
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+tr:nth-child(even) {
+background-color: #6b6b6b;
+}
+/* element a used for link and visited defining colour and text*/
+a:link {
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+color: orange }
+a:visited {
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+color: lightblue }
+/*Style to use for the list*/
+li{   font-family: "Trebuchet MS", Helvetica, sans-serif;
+color: black;
+}
